@@ -251,7 +251,15 @@ margin-top: 130px;
     border-radius: 10px;
     height: 242px;
     width: 242px;
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+}
 
+.stat-element:hover{
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    height: 262px;
+    width: 262px;
+    transform: rotate(25deg);
 }
 
 .stat-box{
